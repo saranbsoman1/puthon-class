@@ -1,4 +1,4 @@
-a=10
-b=20
+a=input("enter first no : ")
+b=input("enter second no : ")
 s=a+b
 print(s)
