@@ -8,7 +8,7 @@ def index():
 
 @app.route("/home") 
 def home():
-    return "welcome to my homepage"   
+    return render_template('home.html')   
 
 @app.route("/contact") 
 def contact():
